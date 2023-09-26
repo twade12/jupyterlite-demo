@@ -8,7 +8,7 @@ class Helper:
     print("The helper has been created")
 
   def connect(self):
-    cnx = mysql.connector.connect(user="tom",password="Manhattan44joke#",host="resensys.net",port=3306)
+    cnx = mysql.connector.connect(user="tom",password="#",host="resensys.net",port=3306)
     query = "SELECT * FROM admin.Accounts;"
     c = cnx.cursor()
     c.execute(query)
