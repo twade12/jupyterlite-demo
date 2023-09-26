@@ -1,3 +1,3 @@
-"LiteBuildConfig": {
-  "extra_ignore_contents": ["/\.senstream"]
-}
+"ContentsManager": {
+                        "allow_hidden": true
+                    }
