@@ -13,7 +13,7 @@ import pandas as pd
 from matplotlib.collections import PatchCollection
 from matplotlib.lines import Line2D
 from matplotlib.patches import Circle
-from tabulate import tabulate
+from .tabulate import tabulate
 
 from .._aggregator_base import _Aggregator
 from .._base import _Model, _TrainableModel
